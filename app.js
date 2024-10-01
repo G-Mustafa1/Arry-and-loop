@@ -29,24 +29,24 @@ document.write(`<hr>`);
 // number using for loop. Table number & length should be
 // taken as an input from user.
 
-// document.write(`<br> <h1> Q4: Enter a Table numbrs and lenth </h1> <h2>`)
-// let tableNum = +prompt("Enter a table number" ,"5")
-// let tableLenth = +prompt("Enter a table lenth" , "10")
-// for (let i = 1; i <= tableLenth; i++) {
-//    document.write(`<table border="1px"> <tr> ${tableNum} X ${i} = ${tableNum * i} <br> </tr> </table>`)
-// }
+document.write(`<br> <h1> Q4: Enter a Table numbrs and lenth </h1> <h2>`)
+let tableNum = +prompt("Enter a table number" ,"5")
+let tableLenth = +prompt("Enter a table lenth" , "10")
+for (let i = 1; i <= tableLenth; i++) {
+   document.write(`<table border="1px"> <tr> ${tableNum} X ${i} = ${tableNum * i} <br> </tr> </table>`)
+}
 
 // 5. Write a program to print items of the following array
 // using for loop:
 // fruits = [“apple”, “banana”, “mango”, “orange”,
 // “strawberry”]
 
-// let fruits = ['apple', 'banana', 'mango', 'orange','strawberry'];
-// document.write(`<hr> <br> <h1> Q5: Aarry of index </h1> <h2> `)
-// // document.write(`${fruits}`)
-// for(index in fruits){
-//    document.write(`<br>  Element at index is ${[index]}: ${fruits[index]} `)
-// }
+let fruits = ['apple', 'banana', 'mango', 'orange','strawberry'];
+document.write(`<hr> <br> <h1> Q5: Aarry of index </h1> <h2> `)
+// document.write(`${fruits}`)
+for(index in fruits){
+   document.write(`<br>  Element at index is ${[index]}: ${fruits[index]} `)
+}
 
 // 6. Generate the following series in your browser. See
 // example output.
@@ -90,19 +90,19 @@ document.write(`${series} <hr>`);
 //array.
 //After searching, prompt the user whether the given item is
 //found in the list or not. Example
-// document.write(`<br> <h1> Q7: My Bakery </h1>`)
-// let A = ['cake', 'applepie', 'cookie', 'chips', 'patties','bisket','lays','bread','butter'];
-// let userInput2 = prompt("Welcome to my bakery","cake");
-// let found = A.includes(userInput2)
-// console.log(found);
-// if(found){
-//    let index2 = A.indexOf(userInput2);
-//    document.write(`<h2>${userInput2} is avalibale at index ${index2} in my barky <br>  <hr>`);
-// }
-// else{
-//    document.write(`We are sorry ${userInput2} is not avalibale in my bakry <hr>`);
+document.write(`<br> <h1> Q7: My Bakery </h1>`)
+let A = ['cake', 'applepie', 'cookie', 'chips', 'patties','bisket','lays','bread','butter'];
+let userInput2 = prompt("Welcome to my bakery","cake");
+let found = A.includes(userInput2)
+console.log(found);
+if(found){
+   let index2 = A.indexOf(userInput2);
+   document.write(`<h2>${userInput2} is avalibale at index ${index2} in my barky <br>  <hr>`);
+}
+else{
+   document.write(`We are sorry ${userInput2} is not avalibale in my bakry <hr>`);
    
-// }
+}
 
 // 8. Write a program to identify the largest number in the
 // given array.
